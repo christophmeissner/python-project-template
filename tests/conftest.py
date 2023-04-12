@@ -5,5 +5,5 @@ logger = logging.getLogger(__name__)
 
 
 @pytest.fixture(scope="session")
-def hello():
-    return "hello"
+def hallo():
+    return "Hallo!"
