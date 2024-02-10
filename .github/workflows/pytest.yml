@@ -6,6 +6,8 @@ jobs:
   pytest:
     name: pytest
     runs-on: ubuntu-latest
+    env:
+      PIPENV_VENV_IN_PROJECT: 0
 
     steps:
       - name: Git checkout
